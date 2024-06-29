@@ -38,5 +38,6 @@ public class MissingNum {
         MissingNum obj1=new MissingNum(size);
         int miss=obj1.missingNum();
         System.out.println("Number missing="+miss);
+        sc.close();
     }
 }

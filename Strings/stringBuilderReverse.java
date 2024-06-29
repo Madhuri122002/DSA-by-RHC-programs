@@ -1,5 +1,6 @@
 package Strings;
 
+
 public class stringBuilderReverse {
     private String original;
     private String reversed;
@@ -7,7 +8,6 @@ public class stringBuilderReverse {
         this.original = original;
         this.reversed = reverseString();
     }
-
     public String reverseString()
     {
         StringBuilder rev=new StringBuilder(original);

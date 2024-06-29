@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.*;
 public class maxMinEle {
-    public void find_max_min(int arr[], int size)
+    public static void find_max_min(int arr[], int size)
     {
         int max=0,min=0;
         for(int i=0;i<size;i++)
@@ -19,5 +19,13 @@ public class maxMinEle {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the size of the array:");
         int size=sc.nextInt();
+        System.out.println("Enter the array elements:");
+        int arr[]=new int[size];
+        for(int i=0;i<size;i++)
+        {
+            arr[i]=sc.nextInt();
+        }
+        find_max_min(arr,size);
+        sc.close();
     }
 }
